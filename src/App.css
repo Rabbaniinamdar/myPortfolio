@@ -1,0 +1,194 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish&family=Yeon+Sung&display=swap");
+:root {
+  --yellow: Purple;
+}
+
+* {
+  font-family: "Mulish", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  text-transform: capitalize;
+  transition: all 0.2s linear;
+}
+
+*::selection {
+  background: lightseagreen;
+  color: #333;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+
+html::-webkit-scrollbar {
+  width: 1.4rem;
+}
+
+html::-webkit-scrollbar-track {
+  background: #222;
+}
+
+html::-webkit-scrollbar-thumb {
+  background: var(--yellow);
+}
+
+body {
+  background: #ffffffb8;
+  overflow-x: hidden;
+  padding-left: 35rem;
+}
+body {
+	background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab,#ffffff);
+	background-size: 400% 400%;
+	animation: gradient 3s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+
+/* media queries  */
+@media (max-width: 1900px) {
+  section {
+    min-height: 40vh;
+  }
+}
+@media (max-width: 1200px) {
+  html {
+    font-size: 55%;
+  }
+  .home {
+    padding: 10rem 4rem;
+  }
+  section {
+    min-height: 35vh;
+  }
+}
+
+@media (max-width: 991px) {
+  header {
+    left: -120%;
+  }
+
+  #menu_bar {
+    display: block;
+    background-color: rgb(197, 0, 197);
+  }
+
+  header.toggle {
+    left: 0%;
+  }
+
+  body {
+    padding: 0;
+  }
+  section {
+    min-height: 40vh;
+  }
+}
+
+@media (max-width: 700px) {
+  html {
+    font-size: 50%;
+  }
+  section {
+    min-height: 30vh;
+  }
+  .nav {
+    display: none;
+  }
+  .typed {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .typed {
+    font-size: 25px;
+  }
+  header {
+    width: 100vw;
+  }
+  section {
+    min-height: 40vh;
+  }
+
+  .heading {
+    margin: 0 3rem;
+  }
+
+  .education .box-container .box {
+    width: 100%;
+  }
+
+  .portfolio .box-container .box {
+    width: 100%;
+  }
+
+  .contact .row form {
+    margin: 3rem 0;
+  }
+}
+
+.portfolio-card {
+  margin: 15px;
+}
+.heading-card {
+  margin: 25px;
+}
+
+#button {
+  display: inline-block;
+  background-color: purple;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  border-radius: 4px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  transition: background-color 0.3s, opacity 0.5s, visibility 0.5s;
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1000;
+}
+#button::after {
+  content: "\f077";
+  font-family: FontAwesome;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 2em;
+  line-height: 50px;
+  color: #fff;
+}
+#button:hover {
+  cursor: pointer;
+  background-color: #0026af;
+}
+#button:active {
+  background-color: #555;
+}
+#button.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+@media (min-width: 500px) {
+  #button {
+    margin: 30px;
+  }
+}

@@ -1,0 +1,18 @@
+.skills_bar {
+  margin: 20px 100px;
+}
+.skill {
+  font-size: 18px;
+  margin: 5px;
+}
+.skills_bar .box {
+  transition: 0.3s ease-in;
+}
+.skills_bar .box:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 767px) {
+  .skills_bar {
+    margin: 20px 50px;
+  }
+}

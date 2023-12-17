@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700;800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body .container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 1200px;
+}
+
+body .container .card {
+  position: relative;
+  min-width: 350px;
+  height: 400px;
+  /* box-shadow: inset 5px 5px 5px rgba(0, 0, 0, 0.2),
+    inset -5px -5px 10px rgba(255, 255, 255, 0.1),
+    5px 5px 15px rgba(0, 0, 0, 0.3), -5px -5px 10px rgba(255, 255, 255, 0.1); */
+  border-radius: 15px;
+  margin: 10px;
+  transition: 0.5s;
+}
+
+body .container .card .box {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: #2a2b2f8b;
+  border-radius: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  transition: 0.5s;
+}
+
+body .container .card .box:hover {
+  transform: scale(1.1);
+}
+
+body .container .card .box .content {
+  padding: 20px;
+  text-align: center;
+}
+body .container .card .box .content h1 {
+  color: rgba(210, 0, 210, 0.844);
+  font-size: 1.8rem;
+}
+
+body .container .card .box .content h3 {
+  font-size: 1.3rem;
+  color: rgb(190, 190, 190);
+  z-index: 1;
+  transition: 0.5s;
+  margin-bottom: 15px;
+}
+
+body .container .card .box .content p {
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: rgb(19, 0, 0);   
+  z-index: 1;
+  transition: 0.5s;
+}
+@media (max-width: 700px) {
+  body .container .card {
+    min-width: 300px;
+}
+}
