@@ -17,7 +17,7 @@ const App = () => {
         <Header />
         <Routes>
           <Route
-            path="/portfolio"
+            path="/myportfolio"
             element={
               <div>
                 <Home />

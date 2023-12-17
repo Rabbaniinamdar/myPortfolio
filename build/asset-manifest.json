@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.073a4cef.css",
+    "main.js": "/portfolio/static/js/main.ffa29f24.js",
+    "static/media/project2.png": "/portfolio/static/media/project2.1b144d5ffe74550e4fae.png",
+    "static/media/project3.png": "/portfolio/static/media/project3.f8c239524e1cd2d5d8be.png",
+    "static/media/bkit.png": "/portfolio/static/media/bkit.662d07db270ed5dcb73d.png",
+    "static/media/project6.png": "/portfolio/static/media/project6.871af4f985f42481fe18.png",
+    "static/media/project1.png": "/portfolio/static/media/project1.3397f629300f6324deca.png",
+    "static/media/ecommrec.png": "/portfolio/static/media/ecommrec.a6dc201a74cc8411e254.png",
+    "static/media/Html_css_js.png": "/portfolio/static/media/Html_css_js.7c564e09d11e40066f4b.png",
+    "static/media/frontend.png": "/portfolio/static/media/frontend.1a4697f1b253f5ab50c7.png",
+    "static/media/js.png": "/portfolio/static/media/js.b4f56b351bd8e9faad89.png",
+    "static/media/github.png": "/portfolio/static/media/github.98650884a9ddfe8d652d.png",
+    "static/media/intro_Htmlcssjs.png": "/portfolio/static/media/intro_Htmlcssjs.271de20b6a0199f136fa.png",
+    "static/media/java-certifi.png": "/portfolio/static/media/java-certifi.f2d1a67789c98fd9fe1b.png",
+    "static/media/web_dev.png": "/portfolio/static/media/web_dev.6f92e348f4499b48e54a.png",
+    "static/media/rabbani-removebg-preview.png": "/portfolio/static/media/rabbani-removebg-preview.44146bb988a591e9e2f2.png",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.319e56727ccfe6a9168e.pdf",
+    "static/media/project5.png": "/portfolio/static/media/project5.c152587a412d7c90c2af.png",
+    "static/media/blob.svg": "/portfolio/static/media/blob.299895267e60408f9a5a28ae13555ffb.svg",
+    "index.html": "/portfolio/index.html",
+    "main.073a4cef.css.map": "/portfolio/static/css/main.073a4cef.css.map",
+    "main.ffa29f24.js.map": "/portfolio/static/js/main.ffa29f24.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073a4cef.css",
+    "static/js/main.ffa29f24.js"
+  ]
+}
